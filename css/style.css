@@ -7,3 +7,33 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+.grid-layaout{
+    display:grid;
+    grid-template-columns:auto auto auto auto;  
+    height:60%;
+    width: 60%;
+    margin: 0 auto;
+    background-color:black;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+
+
+.caja{
+    width: 150px;
+    height: 150px;
+    border: 4px solid black;
+    background-color: rgb(158, 103, 103);
+    margin:10px;
+    text-align: center;
+    line-height: 150px;
+    float: left;
+
+}

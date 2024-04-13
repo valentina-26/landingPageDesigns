@@ -3,6 +3,10 @@
     font-family:Avenir;
     src: url(/storage/font/AvenirLTStd-Roman.otf);
 }
+@font-face {
+    font-family: Monserrat;
+    src: url(/storage/font/Montserrat-VariableFont_wght.otf);
+}
 
 
 *{
@@ -11,17 +15,19 @@
     box-sizing: border-box;
 }
 
-h1{
-    margin-top:8%;
-    margin-left:15%;
-    font-family:Avenir
+h1 {
+    margin-top: 4.5%;
+    margin-left: 15%;
+    font-family: Avenir;
+    font-size: 50px; /* Tamaño de fuente aumentado */
 }
+
 
 
 p{
     margin-top:%;
     margin-left:15%;
-    font-family:Avenir
+    font-family:Monserrat
 
 }
 
@@ -35,7 +41,7 @@ a{
     background-color:#252525;
     display: flex;
     width: 6vi;
-    height: 6vi;
+    height: 2vi;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
@@ -45,10 +51,21 @@ a{
 }
 
 
-/* .grid {
+.grid {
     width: 100%;
     display: grid;
     justify-content: space-around;
-    margin-top:%;
+    margin-top:-3%; 
 
-} */
+}
+
+.imgONE{
+    margin-left: 45%;
+    margin-top: -20%;
+
+}
+
+.imgTWO{
+    margin-left: 69%;
+    margin-top:-20% ;
+} 

@@ -54,8 +54,13 @@ a{
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    margin-left: 57%;
+    margin-left: 59%;
     margin-top: 1%;
     font-size:100%
 }
   
+
+
+.text{
+    margin-left: 1100px;
+}

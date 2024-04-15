@@ -1,4 +1,12 @@
 @import url(variables.css);
+@font-face {
+    font-family: RobotoMono;
+    src: url(/storage/font/RobotoMono-ThinItalic.ttf);
+}
+@font-face {
+    font-family: mini;
+    src: url(/storage/font/RobotoMono-Italic.ttf);
+}
 
 
 *{
@@ -7,3 +15,33 @@
     box-sizing: border-box;
 }
 
+.arriba{
+    align-content: center;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto; 
+}
+
+
+.texto h1{
+    font-family:RobotoMono ;
+    font-size: 3rem;
+}
+
+.texto p{
+    font-family: mini;
+}
+
+
+.imagen{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+}
+
+.imagen img{
+    margin-top:-20%;
+}

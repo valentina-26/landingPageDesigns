@@ -1,7 +1,7 @@
 @import url(variables.css);
 @font-face {
     font-family: RobotoMono;
-    src: url(/storage/font/RobotoMono-ThinItalic.ttf);
+    src: url(/storage/font/RobotoMono-Bold.ttf);
 }
 @font-face {
     font-family: mini;
@@ -15,33 +15,59 @@
     box-sizing: border-box;
 }
 
-.arriba{
-    align-content: center;
-}
-
-.texto{
+.arriba {
     display: flex;
+  justify-content: space-between; 
+  align-items: center; /
+  }
+  
+  .texto {
     flex-direction: column;
-    margin: 5% auto; 
-}
+    margin: 4% auto; 
+    margin-left: 13%; 
+  }
+  
+  .texto h1 {
+    font-family: RobotoMono;
+    font-size: 3.5rem;
 
-
-.texto h1{
-    font-family:RobotoMono ;
-    font-size: 3rem;
-}
-
-.texto p{
+  }
+  
+  .texto p {
     font-family: mini;
-}
+    font-size: 1.5rem;
+  }
 
-
-.imagen{
+  /* .texto a{
+    text-decoration: none;
+    color: #ffffff;
+  } */
+  
+  .imagen {
     display: flex;
-    justify-content: flex-end; 
-    align-items: center; 
+    align-items: center;
+    margin-top: 3%;
+    
+
+  }
+  
+  .imagen img {
+    
+  }
+
+
+
+
+
+
+  
+.abajo{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 7%;
 }
 
-.imagen img{
-    margin-top:-20%;
+.abajo a{
+  
 }

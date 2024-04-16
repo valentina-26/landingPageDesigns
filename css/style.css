@@ -16,9 +16,9 @@
 }
 
 .arriba {
-    display: flex;
-  justify-content: space-between; 
-  align-items: center; /
+  display: flex; 
+  align-items: center; 
+  
   }
   
   .texto {
@@ -44,11 +44,10 @@
   } */
   
   .imagen {
-    display: flex;
     align-items: center;
     margin-top: 3%;
+    width: 50%;
     
-
   }
   
   .imagen img {
@@ -63,11 +62,10 @@
   
 .abajo{
   display: flex;
-  gap: 50px;
-  justify-content: center;
   margin-top: 7%;
 }
 
-.abajo a{
+.a{
+  width:100%;
   
 }

@@ -24,12 +24,12 @@
   .texto {
     flex-direction: column;
     margin: 4% auto; 
-    margin-left: 13%; 
+    margin-left: 5%; 
   }
   
   .texto h1 {
     font-family: RobotoMono;
-    font-size: 3.5rem;
+    font-size: 4rem;
 
   }
   
@@ -38,15 +38,18 @@
     font-size: 1.5rem;
   }
 
-  /* .texto a{
-    text-decoration: none;
-    color: #ffffff;
-  } */
-  
+  button{
+    background: var(--color-prymary);
+    border-radius: 15px;
+    color: aliceblue;
+    width: 8vi;
+    height: 2vi;
+
+  }
   .imagen {
-    align-items: center;
+    
     margin-top: 3%;
-    width: 50%;
+    width: 37%;
     
   }
   
@@ -62,10 +65,12 @@
   
 .abajo{
   display: flex;
-  margin-top: 7%;
+  margin-top: 5%;
+  align-content: center;
 }
 
 .a{
   width:100%;
+  margin: 3.5%;
   
 }

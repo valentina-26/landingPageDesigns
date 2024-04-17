@@ -7,3 +7,26 @@
     box-sizing: border-box;
 }
 
+.arriba{
+    display: flex;
+    margin-top: 3%;
+    /* justify-content: space-evenly; */
+    margin-left: 6%;
+}
+
+.arriba h1{
+    font-family: Avenir;
+    font-size: 4rem;
+}
+
+.abajo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    
+}
+
+.abajo img{
+    align-content: center;
+    margin: 3%;
+}

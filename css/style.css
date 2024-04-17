@@ -7,3 +7,59 @@
     box-sizing: border-box;
 }
 
+body{
+    background:#232323;
+}
+
+
+.izquierda{
+    display: grid;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.uno{
+    color:var(--color-uno);
+    font-size: 7rem;
+}
+
+.dos{
+    color:var(--color-dos);
+    font-size: 7rem;
+}
+
+.tres{
+    color:var(--color-tres);
+    font-size: 7rem;
+}
+
+.izquierda p{
+    font-size: 2rem;
+    color: white;
+}
+
+button{
+    background: white;
+    color:var(--color-fondo);
+    font-size: 1.5rem;
+    border-radius: 40%;
+    width: 8%;
+    height: 200%;
+}
+
+.derecha{
+    display: grid;
+    margin-top: -35%;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 45%;
+    width: 70%;
+    
+}
+
+.imagenes{
+     display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:20px;
+    
+    
+}

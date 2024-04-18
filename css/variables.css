@@ -1,3 +1,13 @@
 :root{
     --color-prymary:#ff0000;
 }
+
+@font-face {
+    font-family: Bitter-bold;
+    src: url(/storage/font/Bitter-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Bitter-regular;
+    src: url(/storage/font/SpaceMono-Regular.ttf);
+}

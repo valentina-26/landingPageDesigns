@@ -7,3 +7,25 @@
     box-sizing: border-box;
 }
 
+
+body{
+    margin: 70px;
+}
+
+.main{
+    display: flex;
+    
+}
+
+.izquierda{}
+
+
+h1{
+    font-family: Bold;
+    font-size: 3rem;
+    margin-top: 15%;
+}
+
+p{
+    font-family: Regular;
+}

@@ -17,15 +17,58 @@ body{
     
 }
 
-.izquierda{}
+.izquierda{
+    background: blue;
+}
 
 
 h1{
     font-family: Bold;
-    font-size: 3rem;
-    margin-top: 15%;
+    font-size: 4rem;
+    margin-top: 10%;
 }
 
 p{
     font-family: Regular;
+    font-size: 1.5rem;
+}
+
+.b1{
+    width: 30%;
+    height: 10%;
+    border-radius: 20px;
+    color: white;
+    background: black;
+}
+
+.b2{
+    width: 30%;
+    height: 10%;
+    border-radius: 20px;
+    color: black;
+    background: white;
+}
+
+.imagen{
+    display: flex; 
+    border-radius:20px ;
+    
+    
+}
+
+.imagen img{
+    width: 50%;
+    flex-direction:row ;
+    align-content: space-between;
+    
+
+   
+}
+
+.derecha{
+    margin-top:-10% ;
+}
+
+.derecha img{
+  
 }

@@ -7,3 +7,59 @@
     box-sizing: border-box;
 }
 
+body{
+
+    margin:90px ;
+    background: var(--color-prymary);
+
+}
+
+.main{
+    display: flex;
+    align-content: center;
+}
+
+.derecha{
+    display: flex;
+    
+   
+}
+
+.texto{
+    display: flex;
+    margin-left: 50%;
+    margin-top: -50%;
+    flex-direction: column;
+}
+
+
+h1{
+    font-size: 6rem;
+    color: white;
+    margin-bottom: 20px;
+    padding-left: 80px;
+    font-family: Bold;
+}
+
+p{
+    font-size: 1.5rem;
+    color: var(--color-secundary);
+    margin-bottom: 40px;
+    padding-left: 80px;
+    font-family: Medium;
+}
+
+button{
+    color:black;
+    background:var(--color-secundary);
+    border-color: var(--color-secundary);
+    width: 32%;
+    height:75px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    margin-left: 10%;
+}
+
+
+
+

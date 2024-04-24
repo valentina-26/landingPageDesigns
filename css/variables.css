@@ -1,3 +1,13 @@
 :root{
-    --color-prymary:#ff0000;
+    --color-prymary:#333333;
+}
+
+@font-face {
+    font-family: "Heavy";
+    src: url(/storage/font/Avenir\ Heavy.ttf);
+}
+
+@font-face {
+    font-family: "Roman";
+    src: url();
 }

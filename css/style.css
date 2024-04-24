@@ -7,3 +7,75 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 80px;
+    display: flex;
+}
+
+.text{
+  
+    width: 50%;
+    height: 500px;
+    margin-left: 1.5%;
+}
+
+h1{
+    font-family: "Heavy";
+    font-size: 6rem;
+    margin-bottom: 2%;
+    margin-top: -3%;   
+}
+
+p{
+    font-family: "Roman";
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    margin-bottom: 2%;
+   
+}
+
+button{
+    width:150px ;
+    height: 50px;
+    background: var(--color-prymary);
+    color: white;
+    border-radius: 50px;
+   
+}
+
+.imagen{
+    background:blue;
+    margin-left: 13%;
+}
+
+.uno{
+    
+   position: absolute;
+   z-index: 1;
+   width: 380px;
+}
+
+.dos{
+  position:absolute;
+  margin-top: 6%;
+  z-index: 2;
+  margin-left: 12%;
+  width: 380px;
+}
+
+.frame{
+    display: flex;
+    height: 270px;
+    width: 100%;
+    margin-top: 36%;
+    margin-left: -60%;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 20px;
+    background: var(--color-prymary);
+}
+
+.frame img{
+    width: 350px;
+    
+}

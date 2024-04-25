@@ -1,9 +1,66 @@
 @import url(variables.css);
 
+@font-face {
+    font-family: "lato-semibold";
+    src: url(storage/font/lato-semibold.ttf);
+}
 
+@font-face {
+    font-family:"Lato-Regular";
+    src: url(storage/font/Lato-Regular.ttf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-image: url(/storage/mg/bg.svg);
+    background-size: cover;
+    margin: 70px;
+   
+}
+
+.main {
+}
+.text {
+}
+
+.text h1{
+    font-family: "lato-semibold";
+    font-size: 5.5rem;
+    margin-bottom: 20px;
+}
+
+button{
+    background:var(--color-prymary);
+    color: white;
+    font-family: var(--color-prymary);
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+
+}
+
+.text p{
+    font-family: "Lato-Regular";
+    font-size: 1.5rem;
+}
+.imagen {
+    margin-left: 60%;
+    margin-top: -30%;
+}
+.tren {
+    display: flex;
+    margin-top: -10%;
+    gap: 30px;
+}
+
+.tren img{
+    width: 300px;
+}
+
 

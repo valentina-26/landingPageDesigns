@@ -1,3 +1,13 @@
 :root{
-    --color-prymary:#ff0000;
+    --color-prymary:#333333;
+}
+
+@font-face {
+    font-family: "lato-semibold";
+    src: url(storage/font/lato-semibold.ttf);
+}
+
+@font-face {
+    font-family:"Lato-Regular";
+    src: url(storage/font/Lato-Regular.ttf);
 }

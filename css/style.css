@@ -6,4 +6,50 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 70px;
+}
+.text {
+}
+h1{
+    font-family: var(--color-prymary);
+    font-size: 5rem;
+    margin-top: 16%;
+    margin-bottom: 15px;
+}
 
+p{
+    color: var(--color-secundary);
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+}
+
+button{
+    background: var(--color-terciary);
+    color: var(--color-secundary);
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    border-color:white;
+    margin-bottom: 40px;
+}
+
+.imagen {
+    margin-left: 50%;
+    margin-top: -40%;
+    height: 500px;
+}
+.tren {
+    display: flex;
+    background: var(--color-secundary);
+    width: 30%;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 12%;
+    justify-content: space-around;
+
+}
+
+.tren img{
+    width: 80px;
+}

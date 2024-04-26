@@ -1,9 +1,117 @@
 @import url(variables.css);
-
-
+@font-face {
+    font-family: "Times";
+    src: url(/storage/font/Typography\ Times\ Regular.ttf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Times";
 }
 
+body{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px 0 40px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left__grid1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    align-items: center;
+}
+
+.left__grid1 h1{
+    font-size: 56px;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-left: -80px;
+}
+
+h1{  
+    font-size: 56px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.left__grid1 p{
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 58%;
+}
+
+p{
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 45%;
+}
+
+button {
+    padding: 20px 40px;
+    background-color: #457D61;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    margin-right: auto;
+    font-size: 15px;
+    margin-left: 140px;
+}
+
+.left__grid2{
+    display: flex;
+    flex-direction: row;
+}
+
+.img1{
+    margin-top: 80px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+.center{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right__grid1{
+    display: flex;
+}
+
+.right__grid2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.float__img1{
+    width: 80px;
+    position: absolute;
+    left: 33%;
+    top: 15%;
+}
+
+.float__img2{
+    width: 80px;
+    position: absolute;
+    right: 25%;
+    top: 40%
+}

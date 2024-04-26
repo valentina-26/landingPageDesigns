@@ -1,9 +1,91 @@
 @import url(variables.css);
-
-
+@font-face {
+    font-family: 'Avenir';
+    src: url(/storage/font/AvenirLTStd-Roman.otf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Avenir';
 }
 
+body{
+    margin: 30px;
+}
+
+.content{
+
+}
+
+.text{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #252525;
+    font-size: 6rem;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+p{
+    color: #252525;
+    filter: grayscale(80%);
+    font-size: 30px;
+    width: 38%;
+    margin-bottom: 40px;
+    letter-spacing: .5px;
+}
+
+button {
+    padding: 20px 80px;
+    background-color: #252525;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.images{
+    margin-left: 550px;
+    background: blue;
+    width: 100%;
+}
+
+.img1{
+    position: absolute;
+    z-index: 5;
+    margin-left: 250px;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.img2{
+    position: absolute;
+    z-index: 1;
+    width: 64%;
+    margin-top: 50px;
+    margin-left: 565px;
+}
+
+.down{
+    display: flex;
+    width: 43%;
+    margin-top: 1000px;
+    margin-left: 1000px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.down p{
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    font-size: 28px;
+}
